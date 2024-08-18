@@ -45,26 +45,30 @@
                 </auxhead>
                 <rows>
                     <row>
-                        Name
+                        Name:
                         <textbox hflex="1" value="@bind(vm.member.name)" constraint="no empty"/>
                     </row>
                     <row>
                         Gender:
                         <radiogroup selectedItem="@bind(vm.selectedGender)">
-                            <radio label="Male" value="male" iconSclass="z-icon-male"/>
-                            <radio label="Female" value="female" iconSclass="z-icon-female"/>
+                            <vlayout>
+                                <radio label="Male" value="male" iconSclass="z-icon-male"/>
+                                <radio label="Female" value="female" iconSclass="z-icon-female"/>
+                            </vlayout>
                         </radiogroup>
                     </row>
                     <row>
-                        Birthday
+                        Birthday:
                         <datebox hflex="1" value="@bind(vm.member.dob)"
                                  constraint="no empty, no today, no future"/>
                     </row>
-                    <row spans="2" align="right">
-                        <hlayout>
-                            <button label="Cancel" onClick="winReg.setVisible(false);"/>
-                            <button label="Submit" onClick="@command('cmdSubmit')"/>
-                        </hlayout>
+                    <row>
+                        <cell colspan="2" align="right">
+                            <hlayout>
+                                <button label="Cancel" onClick="winReg.setVisible(false);"/>
+                                <button label="Submit" onClick="@command('cmdSubmit')"/>
+                            </hlayout>
+                        </cell>
                     </row>
                 </rows>
             </grid>

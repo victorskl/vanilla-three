@@ -1,4 +1,5 @@
 # Purpose
+
 Explore ZK as web MVC/MVVM and Spring as a middleware to backend tiers.
 
 ## Technology Stack
@@ -14,6 +15,16 @@ Explore ZK as web MVC/MVVM and Spring as a middleware to backend tiers.
 * Validation
 * i18n
 
-## Demo
+## Docker
 
-* http://cloud.sankholin.com/vanilla-three
+```
+docker build -t vanilla-three -f Dockerfile .
+```
+
+```
+docker run -it --rm -p 8080:8080 --name vanilla-three vanilla-three
+```
+
+```
+open -a "Google Chrome" http://localhost:8080/vanilla-three
+```

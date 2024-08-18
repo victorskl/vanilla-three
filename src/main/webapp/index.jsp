@@ -31,23 +31,28 @@
 <div id="container">
     <h1>Good day...</h1>
 
-    <p>Welcome to Vanilla <a style="font-weight: bold" href="https://github.com/victorskl/vanilla/tree/master/vanilla-three">THREE</a></p>
-    <pre>git clone https://github.com/victorskl/vanilla.git</pre>
+    <p>Welcome to Vanilla <a style="font-weight: bold" href="https://github.com/victorskl/vanilla-three">THREE</a></p>
+    <pre>git clone https://github.com/victorskl/vanilla-three.git</pre>
 
     <iframe src="https://ghbtns.com/github-btn.html?user=victorskl&amp;type=follow" frameborder="0" scrolling="no" width="170px" height="20px"></iframe>
 
     <hr/>
 
-    <h2>ZK MVC/MVVM with Spring</h2>
+    <h2>ZK with Spring</h2>
     <p>
         <cite>mock 'V3 Enterprise Member Registration System'</cite>
     </p>
 
+    <h3>ZK MVC: Page-based App (SSR)</h3>
     <ul>
-        <li><a href="members.zul">ZK MVC with ZUL Layout, Template Composition and Page-based Navigation</a></li>
-        <li><a href="desktop.zul">ZK MVVM with ZUL Layout, Template Composition and Single-page Application</a></li>
-        <li><a href="zkin.jsp">ZK in JSP</a></li>
+        <li><a href="members.zul">members.zul</a></li>
     </ul>
+
+    <h3>ZK MVVM: Single-page App (SPA)</h3>
+    <ul>
+        <li><a href="desktop.zul">desktop.zul</a></li>
+    </ul>
+
 </div>
 <div id="clip"></div>
 </body>

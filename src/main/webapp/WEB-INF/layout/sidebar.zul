@@ -15,8 +15,5 @@
         <row>
             <a href="registration.zul">Registration</a>
         </row>
-        <row>
-            <a href="zkin.jsp">Try ZK-in-JSP</a>
-        </row>
     </rows>
 </grid>
